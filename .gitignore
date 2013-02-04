@@ -1,3 +1,6 @@
+temp
+dist
+.editorconfig
 .gitattributes
+.jshintrc
 .npmignore
-.sass-cache

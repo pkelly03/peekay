@@ -1,4 +1,54 @@
 /* Will be compiled down to a single stylesheet with your sass files */
+html,body,div,span,h1,h2,h3,h4,h5,h6,p {
+    font-size: 100%;
+    font: inherit;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    vertical-align: baseline
+}
+
+body {
+    line-height: 1
+}
+
+ol,ul {
+    list-style: none
+}
+
+body {
+    background: url(../img/background.jpg) no-repeat top center #b1d95c;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #7f7f7f;
+    background-attachment: fixed;
+}
+
+body a {
+    color: #b1d95c;
+    text-decoration: none;
+}
+
+body a:hover {
+    color: #a4c956;
+    -webkit-transition: color 200ms linear;
+    -moz-transition: color 200ms linear;
+    -o-transition: color 200ms linear;
+    -ms-transition: color 200ms linear;
+    transition: color 200ms linear;
+}
+
 #menu {
     margin: 10%;
+}
+
+.home-container {
+    margin-top: 20px;
+    height: 680px;
+}
+
+.header-main {
+    clear: left;
+    margin-top: 120px;
+    padding-bottom: 23px;
+    text-align: center;
 }
